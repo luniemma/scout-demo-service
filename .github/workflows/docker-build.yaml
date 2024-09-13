@@ -28,7 +28,7 @@ jobs:
       - name: Log into registry
         uses: docker/login-action@v2
         with:
-          username: ""
+          username: "luniemma"
           password: ${{ secrets.DOCKER_PAT }}
 
       - name: Extract Docker metadata
